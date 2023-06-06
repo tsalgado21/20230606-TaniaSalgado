@@ -1,0 +1,35 @@
+  378  mkdir 20230606-TaniaSalgado
+  379  cd 20230606-TaniaSalgado/
+  380  git init
+  381  touch comandos.txt
+  382  touch main.js
+  383  touch index.html
+  384  clear
+  385  ls
+  386  pwd
+  387  clear
+  388  git add -A && git commit -m "commit 01 de TaniaSalgado"
+  389  git remote add origin git@github.com:tsalgado21/20230606-TaniaSalgado.git
+  390  git push -u origin master
+  391  clear
+  392  git checkout -b feature
+  393  mkdir Hardware Software SeguridadInformatica
+  394  clear
+  395  ls
+  396  touch Hardware/resumen.txt
+  397  touch Software/resumen.txt
+  398  touch SeguridadInformatica/resumen.txt
+  399  git add -A
+  400  git commit -m "commit 02 de TaniaSalgado"
+  401  git push -u origin feature
+  402  git checkout master
+  403  git pull
+  404  ls
+  405  mv main.js resumenHardware.txt
+  406  mv index.html resumenSoftware.txt
+  407  nano resumenSoftware.txt
+  408  nano resumenHardware.txt
+  409  ls
+  410  nano comandos.txt 
+  411  nano comandos.txt 
+  412  history
